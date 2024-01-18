@@ -45,7 +45,6 @@ validityInput.addEventListener("input", () => {
   const year = parts[0].slice(2);
   const month = parts[1];
 
-  //Final formatted string
   const formattedString = `${month}/${year}`;
   displayValidity.innerText = formattedString;
 });
