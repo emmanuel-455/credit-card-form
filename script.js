@@ -49,7 +49,7 @@ validityInput.addEventListener("input", () => {
   displayValidity.innerText = formattedString;
 });
 
-//cvv
+
 cvvInput.addEventListener("input", () => {
   const userInput = cvvInput.value;
   const sanitizedInput = userInput.slice(0, 3);
@@ -58,7 +58,7 @@ cvvInput.addEventListener("input", () => {
   cvvDisplay.innerText = numericInput;
 });
 
-//Flip
+
 cvvInput.addEventListener("click", () => {
   document.getElementById("card").style.transform = "rotateY(180deg)";
 });
