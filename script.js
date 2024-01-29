@@ -62,7 +62,6 @@ cvvInput.addEventListener("input", () => {
 cvvInput.addEventListener("click", () => {
   document.getElementById("card").style.transform = "rotateY(180deg)";
 });
-//Reflip card
 document.addEventListener("click", () => {
   if (document.activeElement.id != "cvv") {
     document.getElementById("card").style.transform = "rotateY(0deg)";
